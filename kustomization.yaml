@@ -1,0 +1,7 @@
+namespace: test-playground
+namePrefix: goapp-
+nameSuffix: "-001"
+resources:
+- deployment.yaml
+- service.yaml
+- ingress.yaml
