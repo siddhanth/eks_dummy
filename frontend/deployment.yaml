@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: goappfrontend-deployment
+  
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: goappfrontend
+  template:
+    metadata:
+      labels:
+        app: goappfrontend
+    spec:
+      containers:
+      - name: goappfrontend
+        image: 981935913893.dkr.ecr.us-west-2.amazonaws.com/k8-go-server:dummy
+        ports:
+        - containerPort: 8080
