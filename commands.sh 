@@ -1,0 +1,2 @@
+ k_test exec -i -t goapp-deployment-5574bc7c48-dztr5 goapp --  /bin/sh
+ 
