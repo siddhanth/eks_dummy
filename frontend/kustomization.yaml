@@ -1,4 +1,4 @@
-namespace: test-playground
+namespace: test-playground_new
 
 resources:
 - deployment.yaml
