@@ -1,6 +1,7 @@
-namespace: test-playground_new
+namespace: test-playground-new
 
 resources:
+- namespace.yaml
 - deployment.yaml
 - service.yaml
 - ingress.yaml
